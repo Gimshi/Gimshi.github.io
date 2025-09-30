@@ -1,0 +1,106 @@
+/* Category Page Styles */
+.category-main {
+  max-width: 1200px;
+  margin: 2.5rem auto 2.5rem auto;
+  padding: 0 2rem;
+}
+.category-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 1.7rem;
+  letter-spacing: 0.01em;
+}
+.category-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7f7f7;
+  border-radius: 0.7rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2.2rem;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+.filter-links {
+  display: flex;
+  gap: 1.3rem;
+}
+.filter-links a {
+  color: var(--primary-black);
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.4rem;
+  transition: background 0.2s, color 0.2s;
+}
+.filter-links a:hover {
+  background: #ececec;
+  color: var(--neutral-gray);
+}
+.category-more {
+  max-width: 1200px;
+  margin: 2.5rem auto 2.5rem auto;
+  padding: 0 2rem;
+}
+.category-more-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #f7f7f7;
+  border-radius: 0.7rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2.2rem;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+.category-more-link {
+  font-weight: 600;
+  padding: 0.2rem 0.7rem;
+  color: var(--primary-black);
+  transition: background 0.2s, color 0.2s;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.product-card {
+  background: var(--primary-white);
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.04);
+  padding: 1.2rem 1rem 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.product-card:hover {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.09);
+}
+.product-card-img {
+  width: 100%;
+  max-width: 180px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  margin-bottom: 1.1rem;
+  background: #f3f3f3;
+}
+.product-card-info {
+  width: 100%;
+  text-align: center;
+}
+.product-card-name {
+  font-weight: 700;
+  font-size: 1.08rem;
+  margin-bottom: 0.2rem;
+}
+.product-card-category {
+  color: var(--neutral-gray);
+  font-size: 0.98rem;
+  margin-bottom: 0.3rem;
+}
+.product-card-price {
+  font-weight: 600;
+  font-size: 1.08rem;
+}
