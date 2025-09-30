@@ -1,4 +1,4 @@
-/* Global CSS Reset and Variables */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,7 +21,7 @@ a {
   text-decoration: none;
   transition: color 0.2s ease;
 }
-/* Header Styles */
+
 .main-header {
   display: flex;
   align-items: center;
